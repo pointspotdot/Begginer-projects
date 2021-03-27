@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/counter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontAwesome/css/all.css">
+</head>
+</head>
+<body onload="changeCount()">
+    <div class="container">
+        <div class="title">Just a counter, really!</div>
+        <div class="background">
+            <div class="table">
+                Current count is: <p id="count"></p>
+                <button onclick="handleCount( 'increase' )"><i class="fas fa-plus-square"></i></button>
+                <button onclick="handleCount( 'reset' )">reset</button>
+                <button onclick="handleCount( 'decrease' )"><i class="fas fa-minus-square"></i></button>
+            </div>
+        </div>
+        <div class="footer">Built by <a href="https://github.com/pointspotdot">sara</a>!</div>
+    </div>
+    <script src="javascript/counter.js"></script>
+</body>
