@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontAwesome/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reviews.css">
+</head>
+</head>
+<body onload="loadReview(0)">
+    <div class="container">
+        <div class="title">A review carrousel...</div>
+        <div class="background">
+            <div class="table">
+                <div class="card" style="width: 18rem;">
+                    <img id="image" class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 id="name" class="card-title"></h5>
+                        <h6 id="title" class="card-subtitle mb-2 text-muted"></h6>
+                        <p id="description" class="card-text"></p>
+                    </div>
+                </div>
+                <button id="forward" onclick="changeReview( 'back' )"><i class="fas fa-long-arrow-alt-left"></i></button>
+                <button id="back" onclick="changeReview( 'forward' )"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </div>
+        </div>
+        <div class="footer">Built by <a href="https://github.com/pointspotdot">sara</a>!</div>
+    </div>
+    <script src="javascript/reviews.js"></script>
+</body>

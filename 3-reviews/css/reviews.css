@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    border: 5px red;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.title {
+    background-color: lightgray;
+    border-bottom: 2px dashed black;
+    flex: 0 1 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 25px;
+    text-align: center;
+    text-shadow: 2px 1px grey;
+}
+
+.background {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    background: lightgray;
+    border: 3px dashed black;
+    padding: 15px;
+    text-align: center;
+    width: unset;
+}
+
+.table #count {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+button {
+    padding: 5px;
+    font-size: xx-large;
+    border: unset;
+    background: unset;
+}
+
+.footer {
+    background: black;
+    color: grey;
+    flex: 0 1 40px;
+    font-family: 'Syne Mono', monospace;
+    font-size: small;
+    text-align: end;
+    padding: 10px 10px 0 0;
+}
+.card-img-top {
+    border-radius: 50%;
+    padding: 25px 25px 0 25px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    align-items: center;
+}
