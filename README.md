@@ -3,6 +3,9 @@
 This project is basically just a set of personal challenges I'm going to be doing.
 It's going to be following this [article](https://www.freecodecamp.org/news/javascript-projects-for-beginners/). I will also be updating this as I go along.
 
+
+### Vanilla JavaScript Projects
+
 1. [Color Flipper](https://github.com/pointspotdot/Begginer-projects/tree/main/1-color_flipper)
 
 This is a very basic HTML, CSS and JS project. There's a button that just changes the background color of a div.
