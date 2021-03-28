@@ -79,3 +79,17 @@ button {
 .card {
     align-items: center;
 }
+
+.container {
+    max-width: unset;
+    padding: unset;
+}
+
+#title {
+    text-transform: uppercase;
+    color: indigo;
+}
+
+#name {
+    text-transform: capitalize;
+}
