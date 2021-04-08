@@ -43,6 +43,7 @@ function changeReview( operator ){
             if ( reviewNumber <= 0 ) reviewNumber = reviews.length - 1;
             break;
         default:
+            reviewNumber = Math.floor( Math.random() * reviews.length );
             break;
     }
     loadReview( reviewNumber );

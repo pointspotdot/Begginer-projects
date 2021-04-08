@@ -93,3 +93,10 @@ button {
 #name {
     text-transform: capitalize;
 }
+
+#random {
+    text-transform: lowercase;
+    font-size: medium;
+    vertical-align: super;
+    border: 3px dotted black;
+}
